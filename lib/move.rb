@@ -11,7 +11,6 @@ def input_to_index(input)
   move = input.to_i - 1
 end
 
-def move(el, foo, bar="X")
-  el[foo]
-  puts el
+def move(array, index, value="X")
+  array[index]
 end
