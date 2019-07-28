@@ -12,6 +12,5 @@ def input_to_index(input)
 end
 
 def move(el, foo, bar="X")
-  puts el
-  puts foo
+  puts el[foo]
 end
