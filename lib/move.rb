@@ -15,5 +15,3 @@ def move(array, index, value="X")
   array[index] = value
   array
 end
-
-board
