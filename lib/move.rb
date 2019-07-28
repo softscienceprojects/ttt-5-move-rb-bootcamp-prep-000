@@ -12,6 +12,6 @@ def input_to_index(input)
 end
 
 def move(el, foo, bar="X")
-
+  el[foo]
 
 end
